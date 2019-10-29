@@ -13,9 +13,9 @@
 
 > A simple calculator app built with React.
 
-### 🏠 [Homepage](http://homepage.com)
+### 🏠 [Homepage](https://react-calcx.herokuapp.com/)
 
-### ✨ [Demo](http://homepage.com)
+### ✨ [Demo](https://react-calcx.herokuapp.com/)
 
 ## Install
 
