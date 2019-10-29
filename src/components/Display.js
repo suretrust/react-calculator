@@ -1,5 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+/* eslint-disable no-unused-vars */
+
+import React from 'react';
+import PropTypes from 'prop-types';
 
 class Display extends React.Component {
   render() {
@@ -8,11 +10,11 @@ class Display extends React.Component {
 }
 
 Display.defaultProps = {
-  result: "0"
+  result: '0',
 };
 
 Display.propTypes = {
-  result: PropTypes.string
+  result: PropTypes.string,
 };
 
 export default Display;
