@@ -1,44 +1,39 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
-import Button from './Button';
+import React from "react";
+import Button from "./Button";
 
 class ButtonPanel extends React.Component {
-  // eslint-disable-next-line class-methods-use-this
-  renderButton(i) {
-    return <Button name={i} />;
-  }
-
   render() {
     return (
       <div>
         <div>
-          {this.renderButton('AC')}
-          {this.renderButton('+/-')}
-          {this.renderButton('%')}
-          {this.renderButton('÷')}
+          <Button name={"AC"} />
+          <Button name={"+/-"} />
+          <Button name={"%"} />
+          <Button name={"÷"} />
         </div>
         <div>
-          {this.renderButton('7')}
-          {this.renderButton('8')}
-          {this.renderButton('9')}
-          {this.renderButton('X')}
+          <Button name={"7"} />
+          <Button name={"8"} />
+          <Button name={"9"} />
+          <Button name={"X"} />
         </div>
         <div>
-          {this.renderButton('4')}
-          {this.renderButton('5')}
-          {this.renderButton('6')}
-          {this.renderButton('-')}
+          <Button name={"4"} />
+          <Button name={"5"} />
+          <Button name={"6"} />
+          <Button name={"-"} />
         </div>
         <div>
-          {this.renderButton('1')}
-          {this.renderButton('2')}
-          {this.renderButton('3')}
-          {this.renderButton('+')}
+          <Button name={"1"} />
+          <Button name={"2"} />
+          <Button name={"3"} />
+          <Button name={"+"} />
         </div>
         <div>
-          {this.renderButton('0')}
-          {this.renderButton('.')}
-          {this.renderButton('=')}
+          <Button name={"0"} />
+          <Button name={"."} />
+          <Button name={"="} />
         </div>
       </div>
     );
