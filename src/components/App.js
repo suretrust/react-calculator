@@ -8,7 +8,7 @@ import '../styles/css/App.css'
 class App extends React.Component {
   render() {
     return (
-      <div id="calculator">
+      <div id="main">
         <Display />
         <ButtonPanel />
       </div>
