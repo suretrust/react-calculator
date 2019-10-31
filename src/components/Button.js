@@ -1,14 +1,18 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 class Button extends React.Component {
   render() {
-    return <button>{this.props.name}</button>;
+    const wide = this.props.wide ? 'fifty-percent' : '';
+    const color = this.props.color || '';
+    const classes = `${color} ${wide}`.trim();
+
+    return <button className={classes}>{this.props.name}</button>;
   }
 }
 
 Button.propTypes = {
-  name: PropTypes.string,
+  name: PropTypes.string
 };
 
 export default Button;
