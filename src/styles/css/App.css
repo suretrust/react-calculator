@@ -1,3 +1,48 @@
-
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+#main .display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background: gray;
+  height: 100px;
+}
+#main .display span {
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+#main .button-panel {
+  display: flex;
+  flex-direction: column;
+}
+#main .button-panel .row {
+  height: 100px;
+}
+#main .button-panel .fifty-percent {
+  width: 50%;
+}
+#main .button-panel .light-gray {
+  background-color: #e4e4e4;
+}
+#main .button-panel .light-gray:hover {
+  background-color: lightgray;
+}
+#main button {
+  width: 25%;
+  height: 100%;
+  font-size: 20px;
+  background-color: #f5913e;
+  border: 1.5px solid #d5d5d5;
+}
+#main button:hover {
+  background-color: #e7893c;
+}
 
 /*# sourceMappingURL=App.css.map */
