@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "big.js": "^5.2.2",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -12,7 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "sass" : "sass --watch src/styles/scss:src/styles/css",
+    "sass": "sass --watch src/styles/scss:src/styles/css",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
