@@ -5,7 +5,7 @@ import Button from "./Button";
 class ButtonPanel extends React.Component {
   render() {
     return (
-      <div className="button-panel">
+      <section className="button-panel">
         <div className="row">
           <Button color="light-gray" name="AC" />
           <Button color="light-gray" name="+/-" />
@@ -35,7 +35,7 @@ class ButtonPanel extends React.Component {
           <Button color="light-gray" name="." />
           <Button name="=" />
         </div>
-      </div>
+      </section>
     );
   }
 }
