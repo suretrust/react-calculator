@@ -24,12 +24,22 @@
         display: flex;
         flex-direction: column;
 
+        button {
+            height: 100%;
+            font-size: 20px;
+            border: 1.5px solid rgb(213, 213, 213);
+        }
+
         .row {
             height: 100px;
         }
 
         .fifty-percent {
             width: 50%;
+        }
+
+        .twenty-five-percent {
+            width: 25%;
         }
 
         .light-gray {
@@ -39,17 +49,13 @@
                 background-color: lightgray;
             }
         }
-    }
 
-    button {
-        width: 25%;
-        height: 100%;
-        font-size: 20px;
-        background-color: #f5913e;
-        border: 1.5px solid rgb(213, 213, 213);
+        .orange {
+            background-color: #f5913e;
 
-        &:hover {
-            background-color: #e7893c;
+            &:hover {
+                background-color: #e7893c;
+            }
         }
     }
 }
