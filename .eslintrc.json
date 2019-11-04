@@ -21,9 +21,12 @@
     "plugins": [
         "react"
     ],
-    "rules": {},
+    "rules": {
+        "import/no-unresolved": "off"
+    },
     "settings": {
         "import/resolver": {
+            "react",
             "node": {
                 "paths": [
                     "src",
