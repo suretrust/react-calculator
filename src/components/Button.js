@@ -12,7 +12,7 @@ class Button extends React.Component {
 
 Button.defaultProps = {
   wide: false,
-  color: 'orange'
+  color: 'orange',
 };
 
 Button.propTypes = {
