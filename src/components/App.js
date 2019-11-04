@@ -3,7 +3,7 @@
 import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
-import '../styles/css/App.css'
+import '../styles/css/App.css';
 
 class App extends React.Component {
   render() {
