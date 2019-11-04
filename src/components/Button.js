@@ -12,11 +12,13 @@ class Button extends React.Component {
 
 Button.defaultProps = {
   wide: false,
-  color: 'orange',
+  color: 'orange'
 };
 
 Button.propTypes = {
   name: PropTypes.string,
+  wide: PropTypes.string,
+  color: PropTypes.string,
 };
 
 export default Button;
