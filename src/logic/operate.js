@@ -16,3 +16,5 @@ const operate = (numberOne, numberTwo, operation) => {
     return numberOne.mod(numberTwo);
   }
 };
+
+export default operate;
