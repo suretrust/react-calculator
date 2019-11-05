@@ -3,7 +3,10 @@
         "browser": true,
         "es6": true
     },
-    "extends": "airbnb-base",
+    "extends": [
+        "airbnb-base",
+        "plugin:react/recommended"
+    ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -18,10 +21,5 @@
     "plugins": [
         "react"
     ],
-    "rules": {
-        "react/jsx-filename-extension": 0,
-        "no-shadow": 0,
-        "import/no-extraneous-dependencies": 0,
-        "camelcase": 0
-    }
+    "rules": {}
 }

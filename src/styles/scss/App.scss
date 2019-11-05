@@ -1,0 +1,61 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+
+    .display {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        background: gray;
+        height: 100px;
+
+        span {
+            font-weight: bold;
+            font-size: 32px;
+            color: white;
+            margin-top: 40px;
+            margin-right: 10px;
+        }
+    }
+
+    .button-panel {
+        display: flex;
+        flex-direction: column;
+
+        button {
+            height: 100%;
+            font-size: 20px;
+            border: 1.5px solid rgb(213, 213, 213);
+        }
+
+        .row {
+            height: 100px;
+        }
+
+        .fifty-percent {
+            width: 50%;
+        }
+
+        .twenty-five-percent {
+            width: 25%;
+        }
+
+        .light-gray {
+            background-color: rgb(228, 228, 228);
+
+            &:hover {
+                background-color: lightgray;
+            }
+        }
+
+        .orange {
+            background-color: #f5913e;
+
+            &:hover {
+                background-color: #e7893c;
+            }
+        }
+    }
+}

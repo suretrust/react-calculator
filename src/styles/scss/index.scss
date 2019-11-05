@@ -1,0 +1,16 @@
+@mixin padding-calc {
+    padding: -webkit-calc((100vh - 600px)/2) 0;
+    padding: -moz-calc((100vh - 600px)/2) 0;
+    padding: calc((100vh - 600px)/2) 0;
+}
+
+body {
+    padding: 0;
+    margin: 0 10px;
+
+    #root {
+        @include padding-calc();
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,52 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+#main .display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background: gray;
+  height: 100px;
+}
+#main .display span {
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+#main .button-panel {
+  display: flex;
+  flex-direction: column;
+}
+#main .button-panel button {
+  height: 100%;
+  font-size: 20px;
+  border: 1.5px solid #d5d5d5;
+}
+#main .button-panel .row {
+  height: 100px;
+}
+#main .button-panel .fifty-percent {
+  width: 50%;
+}
+#main .button-panel .twenty-five-percent {
+  width: 25%;
+}
+#main .button-panel .light-gray {
+  background-color: #e4e4e4;
+}
+#main .button-panel .light-gray:hover {
+  background-color: lightgray;
+}
+#main .button-panel .orange {
+  background-color: #f5913e;
+}
+#main .button-panel .orange:hover {
+  background-color: #e7893c;
+}
+
+/*# sourceMappingURL=App.css.map */
