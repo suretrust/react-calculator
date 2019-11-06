@@ -5,7 +5,7 @@
     },
     "extends": [
         "airbnb-base",
-        "plugin:react/recommended"
+        "prettier"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -19,7 +19,10 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "prettier"
     ],
-    "rules": {}
+    "rules": {
+        "no-unused-vars": "warn"
+    }
 }
