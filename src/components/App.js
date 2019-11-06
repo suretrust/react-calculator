@@ -21,7 +21,7 @@ class App extends React.Component {
 
     return (
       <div id="main">
-        <Display result={total || next} calcProcess={calcProcess} />
+        <Display result={next || total} calcProcess={calcProcess} />
         <ButtonPanel handleClick={this.handleClick} />
       </div>
     );
