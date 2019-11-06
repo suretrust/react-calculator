@@ -5,6 +5,7 @@ const operate = (numberOne, numberTwo, operation) => {
   if (numberOne === undefined) return numberTwo;
 
   try {
+    Big.DP = 10;
     const x = Big(numberOne);
     const y = Big(numberTwo);
 
