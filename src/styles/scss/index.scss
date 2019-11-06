@@ -4,6 +4,10 @@
     padding: calc((100vh - 600px)/2) 0;
 }
 
+* {
+    outline: none;
+}
+
 body {
     padding: 0;
     margin: 0 10px;
