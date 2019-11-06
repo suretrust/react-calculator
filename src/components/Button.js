@@ -1,24 +1,29 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
+import React from 'react';
 
-class Button extends React.Component {
-  render() {
-    const wide = this.props.wide ? 'fifty-percent' : 'twenty-five-percent';
-    const classes = `${this.props.color} ${wide}`.trim();
+const Button = ({ wide, color, name, handleClick }) => {
+  const classes = `${color} ${
+    wide ? 'fifty-percent' : 'twenty-five-percent'
+  }`.trim();
 
-    return <button className={classes}>{this.props.name}</button>;
-  }
-}
+  return (
+    <button onClick={() => handleClick(name)} className={classes}>
+      {name}
+    </button>
+  );
+};
 
 Button.defaultProps = {
   wide: false,
-  color: 'orange',
+  color: 'orange'
 };
 
 Button.propTypes = {
   name: PropTypes.string,
   wide: PropTypes.bool,
   color: PropTypes.string,
+  handleClick: PropTypes.func.isRequired
 };
 
 export default Button;
