@@ -74,6 +74,11 @@ const calculate = (data, buttonName) => {
       break;
 
     case '.':
+      if (operation === '=') {
+        total = undefined;
+        next = undefined;
+        operation = null;
+      }
       if (next && !next.includes('.')) {
         next += buttonName;
       } else if (!next) {
