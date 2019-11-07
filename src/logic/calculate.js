@@ -14,9 +14,8 @@ const calculate = (data, buttonName) => {
 
   if (operateBtns.includes(buttonName)) {
     if (next && !total) total = operate(total, next, operation);
-    if (total) {
-      operation = buttonName;
-    }
+    if (operation && operation !== '=') total = operate(total, next, operation);
+    if (total) operation = buttonName;
     next = undefined;
   } else if (numbers.includes(buttonName)) {
     if (operation === '=') {
@@ -98,10 +97,10 @@ const calculate = (data, buttonName) => {
     case '+/-':
       if (next === '0' || total === '0') break;
       if (next && !total) {
-        calcProcess = `-(${next})`;
+        calcProcess = `-(${next}) =`;
         next *= -1;
       } else if (total) {
-        calcProcess = `-(${total})`;
+        calcProcess = `-(${total}) =`;
         total *= -1;
       }
       break;
