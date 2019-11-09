@@ -10,13 +10,13 @@
   align-items: flex-end;
   background: gray;
   height: 100px;
-}
-#main .display span {
-  font-weight: bold;
-  font-size: 32px;
   color: white;
-  margin-top: 40px;
-  margin-right: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+#main .display .result {
+  margin-top: 0;
+  font-size: 40px;
 }
 #main .button-panel {
   display: flex;
@@ -42,11 +42,17 @@
 #main .button-panel .light-gray:hover {
   background-color: lightgray;
 }
+#main .button-panel .light-gray:active {
+  background-color: #e4e4e4;
+}
 #main .button-panel .orange {
   background-color: #f5913e;
 }
 #main .button-panel .orange:hover {
   background-color: #e7893c;
+}
+#main .button-panel .orange:active {
+  background-color: #f5913e;
 }
 
 /*# sourceMappingURL=App.css.map */
