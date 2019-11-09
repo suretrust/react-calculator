@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 @mixin padding-calc {
     padding: -webkit-calc((100vh - 600px)/2) 0;
     padding: -moz-calc((100vh - 600px)/2) 0;
     padding: calc((100vh - 600px)/2) 0;
+}
+
+* {
+    outline: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
