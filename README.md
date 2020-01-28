@@ -41,6 +41,7 @@ npm run test
 
 * Twitter: [@suretrustng](https://twitter.com/suretrustng)
 * Github: [@suretrust](https://github.com/suretrust)
+* E-mail: [(Email)](mailto:saholadele@gmail.com)
 
 ## Show your support
 
